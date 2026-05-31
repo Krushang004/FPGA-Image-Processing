@@ -2,7 +2,7 @@
 Basys3 fpga board image processing project.
 # 🖼️ Real-Time FPGA Image Processing System
 
-> 🏆 3rd Place — FPGA Design Challenge 2.0 | SCET Surat | 22 teams competing
+> 🏆 1st Place — FPGA Design Challenge 2.0 | SCET Surat | 22 teams competing
 
 ## Overview
 A real-time image processing system implemented on a **Basys 3 (Artix-7 FPGA)** board using Vivado. 
@@ -28,14 +28,14 @@ Processes live video input and applies 16 different filters in real time.
 | Name | Role |
 |------|------|
 | Krushang Prajapati | Technical Lead |
-| Dhayeya Gandhi | Team Member |
-| Bhavya Bodhania | Team Member |
-| Fenish Modi | Team Member |
+| Pari Lad | Team Member |
+| Chharvvi Batra | Team Member |
+| Yasvi Desai | Team Member |
 
 **Faculty Coordinator:** Nehal Shah  
 **Institution:** SCET, Surat
 
 ## Results
 - ✅ All 16 filters functional in real-time
-- ✅ 3rd place out of 22 teams
+- ✅ 1st place out of 22 teams
 - ✅ Judges specifically noted blur filter implementation quality
