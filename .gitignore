@@ -1,0 +1,39 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.bit
+*.ltx
+
+# Vivado cache and run artifacts
+image_processing/image_processing.cache/
+image_processing/image_processing.hw/
+image_processing/image_processing.runs/
+image_processing/image_processing.ip_user_files/
+image_processing/image_processing.sim/
+
+# IP generated output files (keep .xci source, ignore generated)
+image_processing/image_processing.srcs/sources_1/ip/image_1/blk_mem_gen_v8_2/
+image_processing/image_processing.srcs/sources_1/ip/image_1/doc/
+image_processing/image_processing.srcs/sources_1/ip/image_1/sim/
+image_processing/image_processing.srcs/sources_1/ip/image_1/synth/
+image_processing/image_processing.srcs/sources_1/ip/image_1/*.dcp
+image_processing/image_processing.srcs/sources_1/ip/image_1/*.veo
+image_processing/image_processing.srcs/sources_1/ip/image_1/*.vhdl
+image_processing/image_processing.srcs/sources_1/ip/image_1/summary.log
+
+image_processing/image_processing.srcs/sources_1/ip/image_2/blk_mem_gen_v8_2/
+image_processing/image_processing.srcs/sources_1/ip/image_2/doc/
+image_processing/image_processing.srcs/sources_1/ip/image_2/sim/
+image_processing/image_processing.srcs/sources_1/ip/image_2/synth/
+image_processing/image_processing.srcs/sources_1/ip/image_2/*.dcp
+image_processing/image_processing.srcs/sources_1/ip/image_2/*.veo
+image_processing/image_processing.srcs/sources_1/ip/image_2/summary.log
+
+image_processing/image_processing.srcs/utils_1/imports/synth_1/*.dcp
+
+# Webtalk
+webtalk*.log
+webtalk*.jou
