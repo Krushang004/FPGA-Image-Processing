@@ -1,0 +1,12 @@
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source D:/krushang/VLSI/image_processing/image_processing/image_processing.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1905635970 -regid "211557657_0_0_822" -xml D:/krushang/VLSI/image_processing/image_processing/image_processing.hw/webtalk/u..."
+    (file "D:/krushang/VLSI/image_processing/image_processing/image_processing.hw/webtalk/labtool_webtalk.tcl" line 28)
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr 18 04:09:20 2026...

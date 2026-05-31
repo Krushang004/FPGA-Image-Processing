@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Apr 16 14:21:49 2026
+# Process ID: 13852
+# Log file: D:/krushang/VLSI/image_processing/image_processing/image_processing.runs/image_synth_1/image.vds
+# Journal file: D:/krushang/VLSI/image_processing/image_processing/image_processing.runs/image_synth_1\vivado.jou
+#-----------------------------------------------------------
+source image.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {Common-41} -limit 4294967295
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at D:/krushang/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at D:/krushang/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at D:/krushang/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at D:/krushang/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at D:/krushang/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at D:/krushang/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property webtalk.parent_dir D:/krushang/VLSI/image_processing/image_processing/image_processing.cache/wt [current_project]
+# set_property parent.project_path D:/krushang/VLSI/image_processing/image_processing/image_processing.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_ip D:/krushang/VLSI/image_processing/image_processing/image_processing.srcs/sources_1/ip/image_2/image.xci
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/krushang/Xilinx/Vivado/2014.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'image' generated file not found 'd:/krushang/VLSI/image_processing/image_processing/image_processing.srcs/sources_1/ip/image_2/image.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'image' generated file not found 'd:/krushang/VLSI/image_processing/image_processing/image_processing.srcs/sources_1/ip/image_2/image_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'image' generated file not found 'd:/krushang/VLSI/image_processing/image_processing/image_processing.srcs/sources_1/ip/image_2/image_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'image' generated file not found 'd:/krushang/VLSI/image_processing/image_processing/image_processing.srcs/sources_1/ip/image_2/image_funcsim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'image' generated file not found 'd:/krushang/VLSI/image_processing/image_processing/image_processing.srcs/sources_1/ip/image_2/image_funcsim.vhdl'. Please regenerate to continue.
+# set_property used_in_implementation false [get_files -all d:/krushang/VLSI/image_processing/image_processing/image_processing.srcs/sources_1/ip/image_2/image.dcp]
+# set_property is_locked true [get_files D:/krushang/VLSI/image_processing/image_processing/image_processing.srcs/sources_1/ip/image_2/image.xci]
+# catch { write_hwdef -file image.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top image -part xc7a35tcpg236-1 -mode out_of_context
+Command: synth_design -top image -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2019.07' and will expire in -2451 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.

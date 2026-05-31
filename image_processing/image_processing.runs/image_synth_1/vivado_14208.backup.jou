@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Apr 17 07:47:37 2026
+# Process ID: 12100
+# Log file: D:/krushang/VLSI/image_processing/image_processing/image_processing.runs/image_synth_1/image.vds
+# Journal file: D:/krushang/VLSI/image_processing/image_processing/image_processing.runs/image_synth_1\vivado.jou
+#-----------------------------------------------------------
+source image.tcl
